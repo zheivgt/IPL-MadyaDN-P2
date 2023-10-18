@@ -1,12 +1,12 @@
-class Smartphone extends Product { 
+class Vegetable extends FoodProduct { 
  
- @Override 
- String setName() {
-        return "Samsung S10+ Limited Edition"; 
+    @Override 
+    String getName() { 
+        return "Broccoli"; 
     } 
     
     @Override 
-    Date setExpiredDate() { 
-        return new Date(); // ??????? 
+    Date getExpiredDate() { 
+        return new Date(); 
     } 
 } 
